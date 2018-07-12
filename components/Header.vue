@@ -63,7 +63,7 @@ header{
             height:$line-height / $menu-shrink-ratio;
             width: $line-width / $menu-shrink-ratio;
             background-color: $icon-color;
-            bottom: (-($menu-button-height/2) + ($line-height/2) ) / $menu-shrink-ratio;
+            bottom: ((-($menu-button-height/2) + ($line-height/2) ) / $menu-shrink-ratio);
             &:before, &:after{
                 height:$line-height / $menu-shrink-ratio;
                 width: $line-width / $menu-shrink-ratio;
@@ -107,7 +107,7 @@ header{
             position:relative;
             display: block;
             margin:0 auto;
-            bottom:-($menu-button-height/2) + ($line-height/2);
+            bottom:-($menu-button-height/2) + ($line-height/2) + 2px;
             transition: all $tranistion-duration ease-in-out;
             cursor:pointer;
             &:before,&:after{

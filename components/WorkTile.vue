@@ -44,7 +44,7 @@ export default {
 }
 </script>
 
-<style lang="stylus" scoped>
+<style lang="stylus">
 @import '~assets/variables'
   .work-tile{
       width:33.333%;
@@ -140,7 +140,7 @@ export default {
       display: block;
       height:100px;
       position:absolute;
-      bottom:-120px;
+      bottom:-120px; 
       width:100%;
       z-index: -10;
       transition: bottom 0.3s ease-in-out, height 0.3s ease-in-out;

@@ -213,19 +213,13 @@
      "state":"published",
      "content":{  
         "brief":"",
-        "extended":"<p>Many people worked on this project. &nbsp;My primary role was developing the&nbsp;Ideas (blog) landing and detail page</p>\r\n<ul>\r\n<li>Isotope library used for tiling microinteractions</li>\r\n<li>AngularJs used for routing/history with search</li>\r\n<li>Responsive Design - goes to list view in mobile</li>\r\n<li>KeystoneJs used as CMS</li>\r\n<li>MongoDb used as database</li>\r\n<li>Script to port wordpress blogs to Keystone</li>\r\n<li>Windows Azure Blob storage for images</li>\r\n</ul>"
+        "extended":"<ul>\r\n<li>Vuejs framework used on the front-end</li>\r\n<li>Keystonejs CMS as a backend - customized to have drafts and published states</li>\r\n<li>Responsive Design</li>\r\n<li>MongoDb used as database</li>\r\n<li>Script to port wordpress blogs to Keystone</li>\r\n<li>Windows Azure Blob storage for images</li>\r\n</ul>"
      },
      "technologies":[  
         {  
            "_id":"556b9ae49bfba914410dad36",
-           "key":"angular",
-           "name":"Angular",
-           "__v":0
-        },
-        {  
-           "_id":"556b9b099bfba914410dad37",
-           "key":"gulp",
-           "name":"Gulp",
+           "key":"vuejs",
+           "name":"Vuejs",
            "__v":0
         },
         {  
@@ -249,20 +243,20 @@
         "height":400,
         "format":"png",
         "resource_type":"image",
-        "url":"http://res.cloudinary.com/keystone-demo/image/upload/v1433118631/kish9dabmdtbiju6tfxa.png",
-        "secure_url":"https://res.cloudinary.com/keystone-demo/image/upload/v1433118631/kish9dabmdtbiju6tfxa.png"
+        "url":"/images/oni.png",
+        "secure_url":"/images/oni.png"
      },
      "roles":[  
         {  
            "_id":"556ba486e908f46e4ec0ec70",
            "key":"front-end-developer",
-           "name":"Front End Developer",
+           "name":"Lead Front End Developer",
            "__v":0
         },
         {  
            "_id":"556ba493e908f46e4ec0ec72",
            "key":"backend-developer",
-           "name":"Backend Developer",
+           "name":"Lead Backend Developer",
            "__v":0
         }
      ]
