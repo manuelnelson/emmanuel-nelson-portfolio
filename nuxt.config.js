@@ -1,6 +1,6 @@
 /* nuxt.config.js */
 // only add `router.base = '/<repository-name>/'` if `DEPLOY_ENV` is `GH_PAGES`
-const base = process.env.DEPLOY_ENV === 'GH_PAGES' ? '/emmanuel-nelson-porfolio/' : '';
+const base = process.env.DEPLOY_ENV === 'GH_PAGES' ? '/emmanuel-nelson-portfolio/' : '';
 const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
   router: {
     base: base
